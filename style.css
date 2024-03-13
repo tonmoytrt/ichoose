@@ -584,3 +584,27 @@
     font-size: 10px;
   }
 }
+
+.articles{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.arti{
+    width: 350px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .articles{
+        flex-direction: column;
+    }
+
+    .arti{
+        max-width: 80%;
+        padding: 0 20%;
+    }
+    
+}
